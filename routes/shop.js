@@ -10,10 +10,10 @@ router.get('/', async (req, res) => {
     res.render('shop/index', { figure: figures, plush: plushs });
 });
 
-router.get('/FigureDetail/:id', async(req, res)=>{
+router.get('/figureDetail/:id', async(req, res)=>{
     var id = req.params.id;
     var figures = await figureModel.findById(id);
-    res.render('shop/FigureDetail', { figure: figures });
+    res.render('shop/figureDetail', { figure: figures });
  });
 
 
