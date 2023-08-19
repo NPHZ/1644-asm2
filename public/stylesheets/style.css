@@ -1,4 +1,3 @@
-
 @import url(animate.min.css);
 @import url(normalize.css);
 @import url(icomoon.css);
@@ -43,9 +42,10 @@ a {
     transition: all .3s ease-in-out;
 }
 
-h1{
- text-align: center;
+h1 {
+    text-align: center;
 }
+
 h2,
 h3,
 h4,
@@ -100,7 +100,7 @@ h4 a,
 h5 a,
 h6 a {
     color: #212121;
-    text-decoration: none!important;
+    text-decoration: none !important;
     opacity: 1
 }
 
@@ -141,11 +141,11 @@ a,
 }
 
 img {
-    max-width:338px;
+    max-width: 338px;
     height: 354px;
 }
 
- :focus {
+:focus {
     outline: 0;
 }
 
@@ -271,6 +271,8 @@ button {
 .logo_section {
     width: 100%;
     float: left;
+    background-color: #078011;
+    border: 5px solid
 }
 
 .logo {
@@ -336,6 +338,7 @@ button {
     .sidenav {
         padding-top: 15px;
     }
+
     .sidenav a {
         font-size: 18px;
     }
@@ -571,11 +574,12 @@ a:hover {
 
 .box_main {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #cfcbf5;
     height: auto;
     padding: 20px;
     box-shadow: 0px 0 30px 10px #f0f0f0;
     margin-bottom: 20px;
+    border: 5px solid;
 }
 
 .shirt_text {
@@ -589,10 +593,14 @@ a:hover {
 
 .price_text {
     width: 100%;
-    font-size: 16px;
-    color: #f26522;
+    font-size: 20px;
+    color: #ff8800;
     text-align: center;
     margin: 0px;
+}
+
+.fa-dollar-sign:before {
+    padding: 5px;
 }
 
 .tshirt_img {
@@ -708,6 +716,7 @@ a:hover {
     0% {
         -webkit-transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
     }
@@ -717,6 +726,7 @@ a:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -846,24 +856,28 @@ input.mail_bt::placeholder {
 
 ul {
     list-style-type: none;
-    margin-left:10px;
+    margin-left: 10px;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
+}
+
+li a:hover {
     background-color: #ffff2a;
-  }
+}
+
+.image-border {
+    border: 5px solid black; /* Định nghĩa độ dày và màu sắc của viền */
+}

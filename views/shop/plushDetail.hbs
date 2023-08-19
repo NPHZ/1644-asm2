@@ -1,7 +1,7 @@
 <div class="container col-md-10 text-center mt-3 mb-3">
    <div class="row">
       <div class="col">
-         <img src="{{ plush.image }}"width="350" height="400">
+         <img src="{{ plush.image }}" width="350" height="400">
          <h3 class="text text-primary mt-3">{{ plush.name }} : {{ plush.brand }}</h3>
       </div>
       <div class="col">
@@ -27,7 +27,8 @@
                <th>Order quantity:</th>
                <th>
                   <form action="/shop/order" method="post">
-                     <input class="form-control mb-3" type="number" name="quantity" min="1" max="{{ plush.quantity }}" required>
+                     <input class="form-control mb-3" type="number" name="quantity" min="1" max="{{ plush.quantity }}"
+                        required>
                      <input type="hidden" name="price" value="{{ plush.price }}">
                      <input type="hidden" name="id" value="{{ plush._id }}">
                      <button class="btn btn-primary" onclick="return confirm('Thank for your order')">Order</button>
