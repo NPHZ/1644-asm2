@@ -291,6 +291,7 @@ button {
 .header_section {
     width: 100%;
     display: flex;
+    background-color: pink;
 }
 
 .containt_main {
@@ -880,4 +881,8 @@ li a:hover {
 
 .image-border {
     border: 5px solid black; /* Định nghĩa độ dày và màu sắc của viền */
+}
+
+.carousel-item{
+    background-color: pink;
 }

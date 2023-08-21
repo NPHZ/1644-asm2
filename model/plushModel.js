@@ -3,7 +3,6 @@ const plushSchema = mongoose.Schema({
     name: String,
     image: String,
     price: Number,
-    size: String,
     brand: String,
     quantity:Number,
     category:String,
