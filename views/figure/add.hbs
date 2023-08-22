@@ -1,4 +1,4 @@
-<div class="container col-md-6 mt-3 mb-3 card bg-dark">
+<div class="container col-md-6 mt-3 mb-3 card bg-light">
    <form action="/figure/add" method="post">
       <h1 class="text text-success text-center text-uppercase mt-3">Add new Figure</h1>
       <div class="form-group mt-3">
@@ -26,7 +26,11 @@
       </div>
       <div class="form-group mt-3">
          <label class="h5 text text-success" for="">Brand</label>
-         <input class="form-control" type="text" name="brand" required>
+          <select class="form-control" name="brand">
+            <option value="Bandai">Bandai</option>
+            <option value="Mihoyo">Mihoyo</option>
+            <option value="Kokomi">Kokomi</option>
+         </select>
       </div>
       <div class="form-group mt-3">
          <label class="h5 text text-success" for="">Description</label>
@@ -39,6 +43,6 @@
 </div>
 <style>
    body{
-      background-color: pink;
+      background-color: rgb(255, 247, 0);
    }
 </style>
