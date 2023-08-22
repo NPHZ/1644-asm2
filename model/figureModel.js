@@ -7,6 +7,7 @@ const figureSchema = mongoose.Schema({
     quantity:Number,
     category:String,
     description: String,
+    color:String,
 });
 
 const figureModel = mongoose.model('figure', figureSchema, 'figure');
